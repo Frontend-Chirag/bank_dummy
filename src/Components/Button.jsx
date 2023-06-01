@@ -1,0 +1,13 @@
+import React from 'react'
+
+// passing prop called styles which is coming from Business.jsx file 
+const Button = ({ styles }) => {
+  return (
+    <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px]
+     text-primary outline-none rounded-[10px] ${styles}`}>
+      Get Started
+    </button>
+  )
+}
+
+export default Button
